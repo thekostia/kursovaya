@@ -1,0 +1,130 @@
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  40% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  50% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  65% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+ 
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  40% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  50% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  65% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+
+#bell_badge
+{
+  margin-top:15px
+}
+
+#bell_badge ul
+{
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
+#bell_badge ul a
+{
+  display:block;
+  color:#333;
+  text-decoration:none;
+  font-weight:700;
+  font-size:12px;
+  line-height:32px;
+  padding:0 15px;
+}
+
+#bell_badge ul li
+{
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
+#bell_badge ul li.current-menu-item
+{
+  background:#ddd
+}
+
+#bell_badge ul li:hover
+{
+  background:#f6f6f6
+}
+
+#bell_badge ul ul
+{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#fff;
+  padding:0
+}
+
+#bell_badge ul ul li
+{
+  float:none;
+  width:200px
+}
+
+#bell_badge ul ul a
+{
+  line-height:120%;
+  padding:10px 15px
+}
+
+#bell_badge ul ul ul
+{
+  top:0;
+  left:100%
+}
+
+#bell_badge ul li:hover > ul
+{
+  display:block
+}
